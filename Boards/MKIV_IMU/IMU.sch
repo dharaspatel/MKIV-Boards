@@ -195,7 +195,7 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:TPS561201 U2
+L IMU-rescue:TPS561201-formula U2
 U 1 1 59E04993
 P 8050 5650
 F 0 "U2" H 7850 5350 60  0000 C CNN
@@ -644,35 +644,8 @@ Text Notes 4050 650  0    71   ~ 0
 CAN Transceiver
 Text Notes 6450 5050 0    71   ~ 0
 Buck Converter
-$Comp
-L formula:LM3480 U3
-U 1 1 5BD86FC8
-P 1800 2300
-F 0 "U3" H 1800 2542 50  0000 C CNN
-F 1 "LM3480" H 1800 2451 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 1750 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 1900 2050 50  0001 C CNN
-F 4 "DK" H 1850 2625 60  0001 C CNN "MFN"
-F 5 "LM3480IM3-3.3CT-ND" H 1950 2725 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" H 1750 2525 60  0001 C CNN "PurchasingLink"
-	1    1800 2300
-	1    0    0    -1  
-$EndComp
-Text Label 2100 2300 0    50   ~ 0
+Text Label 2250 2300 0    50   ~ 0
 3.3V
-$Comp
-L power:VCC #PWR08
-U 1 1 5BD87ACE
-P 1500 2250
-F 0 "#PWR08" H 1500 2100 50  0001 C CNN
-F 1 "VCC" H 1517 2423 50  0000 C CNN
-F 2 "" H 1500 2250 50  0001 C CNN
-F 3 "" H 1500 2250 50  0001 C CNN
-	1    1500 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 2300 1500 2250
 Text Notes 1300 1850 0    71   ~ 0
 Linear Regulator
 Connection ~ 6950 5750
@@ -1133,7 +1106,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:ATMEGA16M1 U5
+L IMU-rescue:ATMEGA16M1-formula U5
 U 1 1 5BDB0B52
 P 8500 2800
 F 0 "U5" H 8500 4767 50  0000 C CNN
@@ -1163,56 +1136,31 @@ F 3 "" H 7400 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7200 1400
-Wire Wire Line
-	1500 2300 1400 2300
-Wire Wire Line
-	1400 2300 1400 2350
-Connection ~ 1500 2300
 $Comp
 L formula:C_0.1uF C9
 U 1 1 5BDBF375
-P 1400 2500
-F 0 "C9" H 1200 2550 50  0000 L CNN
-F 1 "C_0.1uF" H 1000 2450 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 1438 2350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1425 2600 50  0001 C CNN
-F 4 "DK" H 1400 2500 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 1400 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1825 3000 60  0001 C CNN "PurchasingLink"
-	1    1400 2500
+P 1150 2450
+F 0 "C9" H 950 2500 50  0000 L CNN
+F 1 "C_0.1uF" H 750 2400 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 1188 2300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1175 2550 50  0001 C CNN
+F 4 "DK" H 1150 2450 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 1150 2450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1575 2950 60  0001 C CNN "PurchasingLink"
+	1    1150 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5BDC4A2E
-P 1800 2750
-F 0 "#PWR09" H 1800 2500 50  0001 C CNN
-F 1 "GND" H 1805 2577 50  0000 C CNN
-F 2 "" H 1800 2750 50  0001 C CNN
-F 3 "" H 1800 2750 50  0001 C CNN
-	1    1800 2750
+P 1300 2600
+F 0 "#PWR09" H 1300 2350 50  0001 C CNN
+F 1 "GND" H 1305 2427 50  0000 C CNN
+F 2 "" H 1300 2600 50  0001 C CNN
+F 3 "" H 1300 2600 50  0001 C CNN
+	1    1300 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 2600 1800 2650
-Wire Wire Line
-	2100 2300 2200 2300
-$Comp
-L formula:C_0.1uF C10
-U 1 1 5BDC8171
-P 2200 2500
-F 0 "C10" H 2315 2546 50  0000 L CNN
-F 1 "C_0.1uF" H 2315 2455 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 2238 2350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2225 2600 50  0001 C CNN
-F 4 "DK" H 2200 2500 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 2200 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2625 3000 60  0001 C CNN "PurchasingLink"
-	1    2200 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 2300 2200 2350
 Wire Notes Line
 	550  3150 3100 3150
 Wire Notes Line
@@ -1328,18 +1276,13 @@ Wire Wire Line
 Wire Wire Line
 	9600 3900 9900 3900
 Wire Wire Line
-	1400 2650 1800 2650
-Connection ~ 1800 2650
-Wire Wire Line
-	1800 2650 1800 2750
-Wire Wire Line
-	2200 2650 1800 2650
+	1300 2500 1300 2600
 NoConn ~ 5900 3400
 NoConn ~ 5900 3500
 NoConn ~ 9600 2500
 NoConn ~ 9600 2600
 $Comp
-L formula:UF_8_RA J1
+L IMU-rescue:UF_8_RA-formula J1
 U 1 1 5C60C429
 P 1250 1100
 F 0 "J1" V 1000 800 60  0000 L CNN
@@ -1434,17 +1377,6 @@ F 5 "SSM3K333RLFCT-ND" H 4600 3125 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 4500 3025 60  0001 C CNN "PurchasingLink"
 	1    4200 2850
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR0105
-U 1 1 5CB5CB27
-P 1450 1350
-F 0 "#PWR0105" H 1450 1200 50  0001 C CNN
-F 1 "VCC" V 1467 1523 50  0000 C CNN
-F 2 "" H 1450 1350 50  0001 C CNN
-F 3 "" H 1450 1350 50  0001 C CNN
-	1    1450 1350
-	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	3100 2350 6300 2350
@@ -1553,10 +1485,10 @@ Wire Wire Line
 	4150 3550 4450 3550
 Connection ~ 4150 3550
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0105
 U 1 1 5CBC044E
 P 4150 3850
-F 0 "#PWR?" H 4150 3700 50  0001 C CNN
+F 0 "#PWR0105" H 4150 3700 50  0001 C CNN
 F 1 "VCC" H 4168 4023 50  0000 C CNN
 F 2 "" H 4150 3850 50  0001 C CNN
 F 3 "" H 4150 3850 50  0001 C CNN
@@ -1571,14 +1503,72 @@ Wire Wire Line
 	4350 4150 4150 4150
 Connection ~ 4150 4150
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0108
 U 1 1 5CBC3D01
 P 4150 4450
-F 0 "#PWR?" H 4150 4300 50  0001 C CNN
+F 0 "#PWR0108" H 4150 4300 50  0001 C CNN
 F 1 "VCC" H 4168 4623 50  0000 C CNN
 F 2 "" H 4150 4450 50  0001 C CNN
 F 3 "" H 4150 4450 50  0001 C CNN
 	1    4150 4450
 	-1   0    0    1   
+$EndComp
+Text Label 1450 1350 3    60   ~ 0
+CANH
+$Comp
+L IMU-rescue:TCR2EF33LM-formula U3
+U 1 1 5CB57340
+P 1850 2400
+F 0 "U3" H 1775 2765 50  0000 C CNN
+F 1 "TCR2EF33LM" H 1775 2674 50  0000 C CNN
+F 2 "footprints:SOT25" H 1850 2900 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45" H 1650 3150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TCR2EF33LM-CT/TCR2EF33LM-CTCT-ND/4503328" H 1750 3250 50  0001 C CNN "Purchasing Link"
+F 5 "TCR2EF33LM(CTCT-ND" H 1750 3000 50  0001 C CNN "MPN"
+	1    1850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2300 1150 2300
+$Comp
+L power:GND #PWR0109
+U 1 1 5CB61AAF
+P 1150 2600
+F 0 "#PWR0109" H 1150 2350 50  0001 C CNN
+F 1 "GND" H 1155 2427 50  0000 C CNN
+F 2 "" H 1150 2600 50  0001 C CNN
+F 3 "" H 1150 2600 50  0001 C CNN
+	1    1150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2300 2550 2300
+$Comp
+L power:GND #PWR0110
+U 1 1 5CB7C753
+P 2550 2600
+F 0 "#PWR0110" H 2550 2350 50  0001 C CNN
+F 1 "GND" H 2555 2427 50  0000 C CNN
+F 2 "" H 2550 2600 50  0001 C CNN
+F 3 "" H 2550 2600 50  0001 C CNN
+	1    2550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2400 1300 2300
+Connection ~ 1300 2300
+$Comp
+L formula:C_1uF C10
+U 1 1 5CB9131A
+P 2550 2450
+F 0 "C10" H 2665 2496 50  0000 L CNN
+F 1 "C_1uF" H 2665 2405 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 2588 2300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 2575 2550 50  0001 C CNN
+F 4 "DK" H 2550 2450 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 2550 2450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 2975 2950 60  0001 C CNN "PurchasingLink"
+	1    2550 2450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
