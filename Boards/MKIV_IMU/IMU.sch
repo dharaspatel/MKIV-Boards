@@ -689,131 +689,131 @@ Digital Accelerometer
 $Comp
 L formula:LED_0805 D3
 U 1 1 5BDE3406
-P 4500 5800
-F 0 "D3" H 4491 6016 50  0000 C CNN
-F 1 "LED_0805" H 4491 5925 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 4400 5800 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4500 5900 50  0001 C CNN
-F 4 "DK" H 4500 5800 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 4500 5800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4900 6300 60  0001 C CNN "PurchasingLink"
-	1    4500 5800
+P 3950 5800
+F 0 "D3" H 3941 6016 50  0000 C CNN
+F 1 "LED_0805" H 3941 5925 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 3850 5800 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3950 5900 50  0001 C CNN
+F 4 "DK" H 3950 5800 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 3950 5800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4350 6300 60  0001 C CNN "PurchasingLink"
+	1    3950 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L formula:R_200 R6
 U 1 1 5BDE4533
-P 4500 6100
-F 0 "R6" H 4570 6146 50  0000 L CNN
-F 1 "R_200" H 4570 6055 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4430 6100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4580 6100 50  0001 C CNN
-F 4 "DK" H 4500 6100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4500 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4980 6500 60  0001 C CNN "PurchasingLink"
-	1    4500 6100
+P 3950 6100
+F 0 "R6" H 4020 6146 50  0000 L CNN
+F 1 "R_200" H 4020 6055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3880 6100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4030 6100 50  0001 C CNN
+F 4 "DK" H 3950 6100 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3950 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4430 6500 60  0001 C CNN "PurchasingLink"
+	1    3950 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 5BDE4769
-P 4500 6250
-F 0 "#PWR014" H 4500 6000 50  0001 C CNN
-F 1 "GND" H 4505 6077 50  0000 C CNN
-F 2 "" H 4500 6250 50  0001 C CNN
-F 3 "" H 4500 6250 50  0001 C CNN
-	1    4500 6250
+P 3950 6250
+F 0 "#PWR014" H 3950 6000 50  0001 C CNN
+F 1 "GND" H 3955 6077 50  0000 C CNN
+F 2 "" H 3950 6250 50  0001 C CNN
+F 3 "" H 3950 6250 50  0001 C CNN
+	1    3950 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 5650 4500 5450
-Text Label 4500 5450 0    50   ~ 0
+	3950 5650 3950 5450
+Text Label 3950 5450 0    50   ~ 0
 PLED1
 $Comp
 L formula:LED_0805 D4
 U 1 1 5BDE6059
-P 5000 5800
-F 0 "D4" H 4991 6016 50  0000 C CNN
-F 1 "LED_0805" H 4991 5925 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 4900 5800 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5000 5900 50  0001 C CNN
-F 4 "DK" H 5000 5800 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 5000 5800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5400 6300 60  0001 C CNN "PurchasingLink"
-	1    5000 5800
+P 4450 5800
+F 0 "D4" H 4441 6016 50  0000 C CNN
+F 1 "LED_0805" H 4441 5925 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 4350 5800 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4450 5900 50  0001 C CNN
+F 4 "DK" H 4450 5800 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 4450 5800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4850 6300 60  0001 C CNN "PurchasingLink"
+	1    4450 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L formula:R_200 R10
 U 1 1 5BDE6063
-P 5000 6100
-F 0 "R10" H 5070 6146 50  0000 L CNN
-F 1 "R_200" H 5070 6055 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4930 6100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5080 6100 50  0001 C CNN
-F 4 "DK" H 5000 6100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5000 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5480 6500 60  0001 C CNN "PurchasingLink"
-	1    5000 6100
+P 4450 6100
+F 0 "R10" H 4520 6146 50  0000 L CNN
+F 1 "R_200" H 4520 6055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4380 6100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4530 6100 50  0001 C CNN
+F 4 "DK" H 4450 6100 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4450 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4930 6500 60  0001 C CNN "PurchasingLink"
+	1    4450 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR030
 U 1 1 5BDE606A
-P 5000 6250
-F 0 "#PWR030" H 5000 6000 50  0001 C CNN
-F 1 "GND" H 5005 6077 50  0000 C CNN
-F 2 "" H 5000 6250 50  0001 C CNN
-F 3 "" H 5000 6250 50  0001 C CNN
-	1    5000 6250
+P 4450 6250
+F 0 "#PWR030" H 4450 6000 50  0001 C CNN
+F 1 "GND" H 4455 6077 50  0000 C CNN
+F 2 "" H 4450 6250 50  0001 C CNN
+F 3 "" H 4450 6250 50  0001 C CNN
+	1    4450 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 5650 5000 5450
+	4450 5650 4450 5450
 $Comp
 L formula:LED_0805 D5
 U 1 1 5BDE6C80
-P 5600 5800
-F 0 "D5" H 5591 6016 50  0000 C CNN
-F 1 "LED_0805" H 5591 5925 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 5500 5800 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5600 5900 50  0001 C CNN
-F 4 "DK" H 5600 5800 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 5600 5800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6000 6300 60  0001 C CNN "PurchasingLink"
-	1    5600 5800
+P 5050 5800
+F 0 "D5" H 5041 6016 50  0000 C CNN
+F 1 "LED_0805" H 5041 5925 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 4950 5800 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5050 5900 50  0001 C CNN
+F 4 "DK" H 5050 5800 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 5050 5800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5450 6300 60  0001 C CNN "PurchasingLink"
+	1    5050 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L formula:R_200 R11
 U 1 1 5BDE6C8A
-P 5600 6100
-F 0 "R11" H 5670 6146 50  0000 L CNN
-F 1 "R_200" H 5670 6055 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5530 6100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5680 6100 50  0001 C CNN
-F 4 "DK" H 5600 6100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5600 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6080 6500 60  0001 C CNN "PurchasingLink"
-	1    5600 6100
+P 5050 6100
+F 0 "R11" H 5120 6146 50  0000 L CNN
+F 1 "R_200" H 5120 6055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4980 6100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5130 6100 50  0001 C CNN
+F 4 "DK" H 5050 6100 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5050 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5530 6500 60  0001 C CNN "PurchasingLink"
+	1    5050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR032
 U 1 1 5BDE6C91
-P 5600 6250
-F 0 "#PWR032" H 5600 6000 50  0001 C CNN
-F 1 "GND" H 5605 6077 50  0000 C CNN
-F 2 "" H 5600 6250 50  0001 C CNN
-F 3 "" H 5600 6250 50  0001 C CNN
-	1    5600 6250
+P 5050 6250
+F 0 "#PWR032" H 5050 6000 50  0001 C CNN
+F 1 "GND" H 5055 6077 50  0000 C CNN
+F 2 "" H 5050 6250 50  0001 C CNN
+F 3 "" H 5050 6250 50  0001 C CNN
+	1    5050 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 5650 5600 5450
-Text Label 5000 5450 0    50   ~ 0
+	5050 5650 5050 5450
+Text Label 4450 5450 0    50   ~ 0
 PLED2
-Text Label 5600 5450 0    50   ~ 0
+Text Label 5050 5450 0    50   ~ 0
 PLED3
 Text Notes 4100 5050 0    71   ~ 0
 Programming LEDS
@@ -859,7 +859,7 @@ F 3 "" H 4950 4400 50  0001 C CNN
 	1    4950 4400
 	1    0    0    -1  
 $EndComp
-Text Label 4450 3550 2    50   ~ 0
+Text Label 3850 3550 2    50   ~ 0
 CS_ACCEL
 $Comp
 L formula:C_100nF C13
@@ -1217,7 +1217,7 @@ Wire Notes Line
 	550  3150 3100 3150
 Wire Notes Line
 	10500 500  10500 6750
-Text Label 4450 3650 2    50   ~ 0
+Text Label 3850 3650 2    50   ~ 0
 CS_GYRO
 Wire Wire Line
 	5900 3700 5950 3700
@@ -1493,4 +1493,62 @@ Wire Wire Line
 	3550 3450 4450 3450
 Wire Wire Line
 	4200 3350 4450 3350
+$Comp
+L formula:SS110LW D?
+U 1 1 5CB87F62
+P 4000 3550
+F 0 "D?" H 4000 3650 50  0000 C CNN
+F 1 "SS110LW" H 3650 3600 50  0001 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 3900 3550 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 3650 50  0001 C CNN
+F 4 "DK" H 4200 3850 60  0001 C CNN "MFN"
+F 5 "SS110LWRVGCT-ND" H 4100 3750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 4300 3950 60  0001 C CNN "PurchasingLink"
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:SS110LW D?
+U 1 1 5CB8E4F6
+P 4000 3650
+F 0 "D?" H 4000 3550 50  0000 C CNN
+F 1 "SS110LW" H 3650 3700 50  0001 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 3900 3650 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 3750 50  0001 C CNN
+F 4 "DK" H 4200 3950 60  0001 C CNN "MFN"
+F 5 "SS110LWRVGCT-ND" H 4100 3850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 4300 4050 60  0001 C CNN "PurchasingLink"
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_10K R?
+U 1 1 5CB8FF2A
+P 4300 3550
+F 0 "R?" V 4200 3550 50  0000 C CNN
+F 1 "R_10K" V 4184 3550 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 4230 3550 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3550 50  0001 C CNN
+F 4 "DK" H 4300 3550 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4300 3550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4780 3950 60  0001 C CNN "PurchasingLink"
+	1    4300 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_10K R?
+U 1 1 5CB9334E
+P 4300 3650
+F 0 "R?" V 4400 3600 50  0000 L CNN
+F 1 "R_10K" H 4370 3605 50  0001 L CNN
+F 2 "footprints:R_0805_OEM" H 4230 3650 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3650 50  0001 C CNN
+F 4 "DK" H 4300 3650 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4300 3650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4780 4050 60  0001 C CNN "PurchasingLink"
+	1    4300 3650
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3100 4900 10500 4900
 $EndSCHEMATC
