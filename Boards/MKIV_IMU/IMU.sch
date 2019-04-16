@@ -1339,10 +1339,10 @@ NoConn ~ 5900 3500
 NoConn ~ 9600 2500
 NoConn ~ 9600 2600
 $Comp
-L formula:UF_8_RA J?
+L formula:UF_8_RA J1
 U 1 1 5C60C429
 P 1250 1100
-F 0 "J?" V 1000 800 60  0000 L CNN
+F 0 "J1" V 1000 800 60  0000 L CNN
 F 1 "UF_8_RA" V 1000 950 60  0000 L CNN
 F 2 "footprints:Ultrafit_8_RA" H 1150 1850 60  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1723161306_sd.pdf" H 1250 1950 60  0001 C CNN
@@ -1357,10 +1357,10 @@ Wire Notes Line
 Wire Notes Line
 	550  500  550  4800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5C6224D9
 P 850 1350
-F 0 "#PWR?" H 850 1100 50  0001 C CNN
+F 0 "#PWR0103" H 850 1100 50  0001 C CNN
 F 1 "GND" H 855 1177 50  0000 C CNN
 F 2 "" H 850 1350 50  0001 C CNN
 F 3 "" H 850 1350 50  0001 C CNN
@@ -1372,10 +1372,10 @@ CANH
 Text Label 1150 1350 3    60   ~ 0
 CANL
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C62AFC1
 P 1250 1350
-F 0 "#PWR?" H 1250 1100 50  0001 C CNN
+F 0 "#PWR0104" H 1250 1100 50  0001 C CNN
 F 1 "GND" H 1255 1177 50  0000 C CNN
 F 2 "" H 1250 1350 50  0001 C CNN
 F 3 "" H 1250 1350 50  0001 C CNN
@@ -1399,8 +1399,6 @@ F 3 "" H 4400 2750 50  0001 C CNN
 	1    4400 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4650 4400 4650 4250
 $Comp
 L formula:R_10K R14
 U 1 1 5C9D2F5D
@@ -1424,10 +1422,10 @@ Wire Notes Line
 Wire Notes Line
 	550  500  10500 500 
 $Comp
-L formula:SSM3K333R Q?
+L formula:SSM3K333R Q2
 U 1 1 5CB6E8BC
 P 4200 2850
-F 0 "Q?" V 4406 2896 50  0000 L CNN
+F 0 "Q2" V 4406 2896 50  0000 L CNN
 F 1 "SSM3K333R" H 4406 2805 50  0001 L CNN
 F 2 "footprints:SOT-23F" H 4400 2775 50  0001 L CIN
 F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 4400 2925 50  0001 L CNN
@@ -1438,10 +1436,10 @@ F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0105
 U 1 1 5CB5CB27
 P 1450 1350
-F 0 "#PWR?" H 1450 1200 50  0001 C CNN
+F 0 "#PWR0105" H 1450 1200 50  0001 C CNN
 F 1 "VCC" V 1467 1523 50  0000 C CNN
 F 2 "" H 1450 1350 50  0001 C CNN
 F 3 "" H 1450 1350 50  0001 C CNN
@@ -1451,10 +1449,10 @@ $EndComp
 Wire Notes Line
 	3100 2350 6300 2350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5CB79637
 P 3750 2850
-F 0 "#PWR?" H 3750 2600 50  0001 C CNN
+F 0 "#PWR0107" H 3750 2600 50  0001 C CNN
 F 1 "GND" H 3755 2722 50  0000 R CNN
 F 2 "" H 3750 2850 50  0001 C CNN
 F 3 "" H 3750 2850 50  0001 C CNN
@@ -1462,10 +1460,10 @@ F 3 "" H 3750 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_10K R?
+L formula:R_10K R13
 U 1 1 5CB79640
 P 3550 3300
-F 0 "R?" V 3450 3250 50  0000 L CNN
+F 0 "R13" V 3450 3250 50  0000 L CNN
 F 1 "R_10K" V 3350 3200 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 3480 3300 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3630 3300 50  0001 C CNN
@@ -1476,10 +1474,10 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 403
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SSM3K333R Q?
+L formula:SSM3K333R Q1
 U 1 1 5CB7964A
 P 3550 2950
-F 0 "Q?" V 3756 2996 50  0000 L CNN
+F 0 "Q1" V 3756 2996 50  0000 L CNN
 F 1 "SSM3K333R" H 3756 2905 50  0001 L CNN
 F 2 "footprints:SOT-23F" H 3750 2875 50  0001 L CIN
 F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 3750 3025 50  0001 L CNN
@@ -1494,10 +1492,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 3350 4450 3350
 $Comp
-L formula:SS110LW D?
+L formula:SS110LW D6
 U 1 1 5CB87F62
 P 4000 3550
-F 0 "D?" H 4000 3650 50  0000 C CNN
+F 0 "D6" H 4000 3650 50  0000 C CNN
 F 1 "SS110LW" H 3650 3600 50  0001 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 3900 3550 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 3650 50  0001 C CNN
@@ -1508,10 +1506,10 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SS110LW D?
+L formula:SS110LW D8
 U 1 1 5CB8E4F6
 P 4000 3650
-F 0 "D?" H 4000 3550 50  0000 C CNN
+F 0 "D8" H 4000 3550 50  0000 C CNN
 F 1 "SS110LW" H 3650 3700 50  0001 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 3900 3650 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 3750 50  0001 C CNN
@@ -1522,10 +1520,10 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R?
+L formula:R_10K R15
 U 1 1 5CB8FF2A
 P 4300 3550
-F 0 "R?" V 4200 3550 50  0000 C CNN
+F 0 "R15" V 4200 3550 50  0000 C CNN
 F 1 "R_10K" V 4184 3550 50  0001 C CNN
 F 2 "footprints:R_0805_OEM" H 4230 3550 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3550 50  0001 C CNN
@@ -1536,10 +1534,10 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 478
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_10K R?
+L formula:R_10K R16
 U 1 1 5CB9334E
 P 4300 3650
-F 0 "R?" V 4400 3600 50  0000 L CNN
+F 0 "R16" V 4400 3600 50  0000 L CNN
 F 1 "R_10K" H 4370 3605 50  0001 L CNN
 F 2 "footprints:R_0805_OEM" H 4230 3650 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3650 50  0001 C CNN
