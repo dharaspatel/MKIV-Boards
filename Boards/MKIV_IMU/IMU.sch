@@ -1217,7 +1217,7 @@ Wire Notes Line
 	550  3150 3100 3150
 Wire Notes Line
 	10500 500  10500 6750
-Text Label 3850 3650 2    50   ~ 0
+Text Label 3850 4150 2    50   ~ 0
 CS_GYRO
 Wire Wire Line
 	5900 3700 5950 3700
@@ -1508,45 +1508,77 @@ $EndComp
 $Comp
 L formula:SS110LW D8
 U 1 1 5CB8E4F6
-P 4000 3650
-F 0 "D8" H 4000 3550 50  0000 C CNN
-F 1 "SS110LW" H 3650 3700 50  0001 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 3900 3650 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 3750 50  0001 C CNN
-F 4 "DK" H 4200 3950 60  0001 C CNN "MFN"
-F 5 "SS110LWRVGCT-ND" H 4100 3850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 4300 4050 60  0001 C CNN "PurchasingLink"
-	1    4000 3650
+P 4000 4150
+F 0 "D8" H 4000 4050 50  0000 C CNN
+F 1 "SS110LW" H 3650 4200 50  0001 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 3900 4150 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 4000 4250 50  0001 C CNN
+F 4 "DK" H 4200 4450 60  0001 C CNN "MFN"
+F 5 "SS110LWRVGCT-ND" H 4100 4350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 4300 4550 60  0001 C CNN "PurchasingLink"
+	1    4000 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_10K R15
 U 1 1 5CB8FF2A
-P 4300 3550
-F 0 "R15" V 4200 3550 50  0000 C CNN
-F 1 "R_10K" V 4184 3550 50  0001 C CNN
-F 2 "footprints:R_0805_OEM" H 4230 3550 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3550 50  0001 C CNN
-F 4 "DK" H 4300 3550 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4300 3550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4780 3950 60  0001 C CNN "PurchasingLink"
-	1    4300 3550
-	0    1    1    0   
+P 4150 4300
+F 0 "R15" V 4050 4300 50  0000 C CNN
+F 1 "R_10K" V 4034 4300 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 4080 4300 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 4300 50  0001 C CNN
+F 4 "DK" H 4150 4300 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4150 4300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4630 4700 60  0001 C CNN "PurchasingLink"
+	1    4150 4300
+	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_10K R16
 U 1 1 5CB9334E
-P 4300 3650
-F 0 "R16" V 4400 3600 50  0000 L CNN
-F 1 "R_10K" H 4370 3605 50  0001 L CNN
-F 2 "footprints:R_0805_OEM" H 4230 3650 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4380 3650 50  0001 C CNN
-F 4 "DK" H 4300 3650 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4300 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4780 4050 60  0001 C CNN "PurchasingLink"
-	1    4300 3650
-	0    1    1    0   
+P 4150 3700
+F 0 "R16" V 4250 3650 50  0000 L CNN
+F 1 "R_10K" H 4220 3655 50  0001 L CNN
+F 2 "footprints:R_0805_OEM" H 4080 3700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 3700 50  0001 C CNN
+F 4 "DK" H 4150 3700 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4150 3700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4630 4100 60  0001 C CNN "PurchasingLink"
+	1    4150 3700
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	3100 4900 10500 4900
+Wire Wire Line
+	4150 3550 4450 3550
+Connection ~ 4150 3550
+$Comp
+L power:VCC #PWR?
+U 1 1 5CBC044E
+P 4150 3850
+F 0 "#PWR?" H 4150 3700 50  0001 C CNN
+F 1 "VCC" H 4168 4023 50  0000 C CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3650 4350 3650
+Wire Wire Line
+	4350 3650 4350 4150
+Wire Wire Line
+	4350 4150 4150 4150
+Connection ~ 4150 4150
+$Comp
+L power:VCC #PWR?
+U 1 1 5CBC3D01
+P 4150 4450
+F 0 "#PWR?" H 4150 4300 50  0001 C CNN
+F 1 "VCC" H 4168 4623 50  0000 C CNN
+F 2 "" H 4150 4450 50  0001 C CNN
+F 3 "" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
