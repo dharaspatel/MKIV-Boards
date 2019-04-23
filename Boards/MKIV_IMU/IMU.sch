@@ -428,7 +428,7 @@ F 3 "" H 2700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:CONN_02X03 J4
+L IMU-rescue:CONN_02X03-formula J4
 U 1 1 59E10F9E
 P 2400 1050
 F 0 "J4" H 2400 1250 50  0000 C CNN
@@ -1291,8 +1291,6 @@ F 6 "https://www.digikey.com/product-detail/en/molex/1723161308/WM11861-ND/53603
 $EndComp
 Wire Notes Line
 	550  1650 3100 1650
-Wire Notes Line
-	550  500  550  4800
 $Comp
 L power:GND #PWR0103
 U 1 1 5C6224D9
@@ -1538,10 +1536,10 @@ $EndComp
 Wire Wire Line
 	3850 2850 3850 2750
 $Comp
-L formula:R_10K R?
+L formula:R_10K R18
 U 1 1 5CBBBA18
 P 3850 2600
-F 0 "R?" H 3920 2646 50  0000 L CNN
+F 0 "R18" H 3920 2646 50  0000 L CNN
 F 1 "R_10K" H 3920 2555 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 3780 2600 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3930 2600 50  0001 C CNN
@@ -1554,10 +1552,10 @@ $EndComp
 Wire Wire Line
 	3850 2850 4000 2850
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0106
 U 1 1 5CBC0239
 P 3850 2450
-F 0 "#PWR?" H 3850 2300 50  0001 C CNN
+F 0 "#PWR0106" H 3850 2300 50  0001 C CNN
 F 1 "VCC" H 3867 2623 50  0000 C CNN
 F 2 "" H 3850 2450 50  0001 C CNN
 F 3 "" H 3850 2450 50  0001 C CNN
@@ -1583,17 +1581,15 @@ Wire Notes Line
 	2500 2350 2500 4900
 Wire Notes Line
 	2500 2350 6300 2350
-Wire Notes Line
-	2500 4900 10500 4900
 Wire Wire Line
 	3050 3050 2800 3050
 Wire Wire Line
 	2800 3050 2800 2900
 $Comp
-L formula:R_10K R?
+L formula:R_10K R17
 U 1 1 5CC045A2
 P 3500 3500
-F 0 "R?" V 3293 3500 50  0000 C CNN
+F 0 "R17" V 3293 3500 50  0000 C CNN
 F 1 "R_10K" V 3384 3500 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3430 3500 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3580 3500 50  0001 C CNN
@@ -1608,10 +1604,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 3500 3350 3500
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0107
 U 1 1 5CC084CE
 P 2800 2600
-F 0 "#PWR?" H 2800 2450 50  0001 C CNN
+F 0 "#PWR0107" H 2800 2450 50  0001 C CNN
 F 1 "VCC" H 2817 2773 50  0000 C CNN
 F 2 "" H 2800 2600 50  0001 C CNN
 F 3 "" H 2800 2600 50  0001 C CNN
@@ -1629,4 +1625,12 @@ Wire Wire Line
 Wire Wire Line
 	4450 3500 4450 3550
 Connection ~ 3650 3500
+Wire Notes Line
+	2500 3050 550  3050
+Wire Notes Line
+	2500 4000 550  4000
+Wire Notes Line
+	550  4900 10500 4900
+Wire Notes Line
+	550  500  550  4900
 $EndSCHEMATC
